@@ -11,8 +11,8 @@ public class LoginRegisterController : MonoBehaviour
 {
     LoginRegister _loginRegisterBaseClass = new LoginRegister();
     [SerializeField] InputField _usernameInput, _emailInput, _passwordInput;
-    [SerializeField] Text _resultText,  _titleText, _loginRegisterButtonText;
-    [SerializeField] Button registerOrLoginBtn;
+    [SerializeField] public Text _resultText, _titleText;
+    [SerializeField] Button registerOrLoginBtn, _loginRegisterButton;
 
     public void Login() => _loginRegisterBaseClass.LoginEmail(_emailInput, _passwordInput);
 
@@ -29,7 +29,6 @@ public class LoginRegisterController : MonoBehaviour
                 registerOrLoginBtn.onClick.AddListener(Login);
                 registerOrLoginBtn.GetComponentInChildren<Text>().text = "Login";
                 _titleText.text = "LOGIN PANEL";
-                _loginRegisterButtonText.text = "Or Register";
 
                 break;
             case false:
@@ -39,7 +38,6 @@ public class LoginRegisterController : MonoBehaviour
                 registerOrLoginBtn.onClick.AddListener(Register);
                 registerOrLoginBtn.GetComponentInChildren<Text>().text = "Register";
                 _titleText.text = "REGISTER PANEL";
-                _loginRegisterButtonText.text = "Or Login";
 
                 break;
         }

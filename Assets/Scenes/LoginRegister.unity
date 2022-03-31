@@ -1707,8 +1707,8 @@ MonoBehaviour:
   _passwordInput: {fileID: 493502970}
   _resultText: {fileID: 2099510618}
   _titleText: {fileID: 22400415}
-  _loginRegisterButtonText: {fileID: 741805813}
   registerOrLoginBtn: {fileID: 1268813273}
+  _loginRegisterButton: {fileID: 741805811}
 --- !u!1 &1452743730
 GameObject:
   m_ObjectHideFlags: 0

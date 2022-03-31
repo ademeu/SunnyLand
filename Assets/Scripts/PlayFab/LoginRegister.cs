@@ -7,37 +7,33 @@ using UnityEngine.UI;
 using System;
 using UnityEngine.SceneManagement;
 
-public class LoginRegister
+public class LoginRegister 
 {
-
-
-
-    public void Register(InputField _username, InputField _password, InputField _email)
+    public void Register(InputField _username, InputField _email, InputField _password)
     {
         RegisterPlayFabUserRequest _register = new RegisterPlayFabUserRequest()
         {
             Username = _username.text,
             Email = _email.text,
-            Password = _password.text            
+            Password = _password.text
         };
-
         PlayFabClientAPI.RegisterPlayFabUser(_register, RegisterSuccess, RegisterError);
     }
 
     private void RegisterError(PlayFabError obj)
     {
-        
+        Debug.Log("Eror");
     }
 
     private void RegisterSuccess(RegisterPlayFabUserResult obj)
     {
-        
+        Debug.Log("Basarili");
     }
 
     public void LoginEmail(InputField _email, InputField _password)
     {
         LoginWithEmailAddressRequest _loginEmail = new LoginWithEmailAddressRequest() { Email = _email.text, Password = _password.text };
-
+       
         PlayFabClientAPI.LoginWithEmailAddress(_loginEmail, LoginSuccess, LoginError);
     }
 
@@ -58,8 +54,4 @@ public class LoginRegister
         SceneManager.LoadScene(1);
     }
 
-    public void Register()
-    {
-
-    }
 }
