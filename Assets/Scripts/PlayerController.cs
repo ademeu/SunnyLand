@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
         if (_onGround.IsOnGround && _isSpaceControl)
         {
             #region 12 çilek topladýgýnda playerýn zýplama kuveeti artýyor.
-            if (GameManager.ReturnScore?.Invoke() >= 1 && _forceSpeed > carpan)
+            if (GameManager.ReturnScore?.Invoke() >= 12 && _forceSpeed > carpan)
             {
                 _forceSpeed *= carpan;
                 carpan = _forceSpeed + 1;

@@ -15,7 +15,7 @@ MonoBehaviour:
   TitleId: 6086A
   DeveloperSecretKey: EF949UM1N6F8AOIDZC7H9FG6OP57ETE45T4PFGJ3CDKYJWKIO9
   ProductionEnvironmentUrl: 
-  RequestType: 2
+  RequestType: 0
   DisableDeviceInfo: 0
   DisableFocusTimeCollection: 0
   RequestTimeout: 2000
