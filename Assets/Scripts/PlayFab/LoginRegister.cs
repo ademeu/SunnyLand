@@ -37,7 +37,6 @@ public class LoginRegister
     {
         Debug.Log("Login giris Yapimadi");
     }
-
     private void LoginSuccess(LoginResult obj)
     {
         Debug.Log("Başarili Giris Yapiliyor..");
