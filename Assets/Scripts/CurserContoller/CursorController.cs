@@ -32,10 +32,10 @@ public class CursorController : MonoBehaviour
                 break;
         }
     }
-    private void SelecetCursor(int _selectCursorArray, string tag)
+    private void SelecetCursor(int _selectCursorArray, string _tag)
     {
         Cursor.SetCursor(_defaultCursor[_selectCursorArray], Vector3.zero, CursorMode.Auto);
-        _currentTag = tag;
+        _currentTag = _tag;
     }
     private string MouseHitResualt()
     {

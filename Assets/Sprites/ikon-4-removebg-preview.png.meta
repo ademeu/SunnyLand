@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: d95ad367a94163d459e7691822f90585
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -793967549850332788
+    second: ikon-4-removebg-preview_0
+  - first:
+      213: 3469470796302617437
+    second: ikon-4-removebg-preview_1
+  - first:
+      213: 5291681330721443145
+    second: ikon-4-removebg-preview_2
+  - first:
+      213: -5533689322944537485
+    second: ikon-4-removebg-preview_3
+  - first:
+      213: 8351775154539644847
+    second: ikon-4-removebg-preview_4
+  - first:
+      213: -5198325305590487473
+    second: ikon-4-removebg-preview_5
+  - first:
+      213: -5581030041624851867
+    second: ikon-4-removebg-preview_6
+  - first:
+      213: 4884581212049992062
+    second: ikon-4-removebg-preview_7
+  - first:
+      213: -7533487674631530724
+    second: ikon-4-removebg-preview_8
+  - first:
+      213: 5961390710727609903
+    second: ikon-4-removebg-preview_9
+  - first:
+      213: 4224481229213650207
+    second: ikon-4-removebg-preview_10
+  - first:
+      213: -7001275743330008708
+    second: ikon-4-removebg-preview_11
+  - first:
+      213: -4648366454419434798
+    second: ikon-4-removebg-preview_12
+  - first:
+      213: 1898160408790188340
+    second: ikon-4-removebg-preview_13
+  - first:
+      213: -8358795747934324007
+    second: ikon-4-removebg-preview_14
+  - first:
+      213: -2816799949805241474
+    second: ikon-4-removebg-preview_15
+  - first:
+      213: 3076945855313478416
+    second: ikon-4-removebg-preview_16
+  - first:
+      213: 5920423559340145002
+    second: ikon-4-removebg-preview_17
+  - first:
+      213: -143168378022102848
+    second: ikon-4-removebg-preview_18
+  - first:
+      213: 6267828265226522826
+    second: ikon-4-removebg-preview_19
+  - first:
+      213: 6967176192008470875
+    second: ikon-4-removebg-preview_20
+  - first:
+      213: 2090451350219213535
+    second: ikon-4-removebg-preview_21
+  - first:
+      213: 5306286693691277322
+    second: ikon-4-removebg-preview_22
+  - first:
+      213: -4546876636723428723
+    second: ikon-4-removebg-preview_23
+  - first:
+      213: -7931766308762072641
+    second: ikon-4-removebg-preview_24
+  - first:
+      213: 2756146917287177895
+    second: ikon-4-removebg-preview_25
+  - first:
+      213: -5275632150829820730
+    second: ikon-4-removebg-preview_26
+  - first:
+      213: -5993155100617156989
+    second: ikon-4-removebg-preview_27
+  - first:
+      213: -1319219409987274179
+    second: ikon-4-removebg-preview_28
+  - first:
+      213: 2643941730048701893
+    second: ikon-4-removebg-preview_29
+  - first:
+      213: 2464039555043822029
+    second: ikon-4-removebg-preview_30
+  - first:
+      213: -4235998067964880630
+    second: ikon-4-removebg-preview_31
+  - first:
+      213: -6078821925151758621
+    second: ikon-4-removebg-preview_32
+  - first:
+      213: 4947685364508389902
+    second: ikon-4-removebg-preview_33
+  - first:
+      213: -7398237907704240427
+    second: ikon-4-removebg-preview_34
+  - first:
+      213: 1905379380629104633
+    second: ikon-4-removebg-preview_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 424
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81dbf358b24bf4f0800000000000000
+      internalID: -793967549850332788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 424
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b8534ae49062030800000000000000
+      internalID: 3469470796302617437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 424
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dc73e3224df6940800000000000000
+      internalID: 5291681330721443145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 424
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cd48821e26433b0800000000000000
+      internalID: -5533689322944537485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 424
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7c442e04777e370800000000000000
+      internalID: 8351775154539644847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 423
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46ea5d2da6dbd7b0800000000000000
+      internalID: -5198325305590487473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 342
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aca282fb23c82b0800000000000000
+      internalID: -5581030041624851867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7969c49bb489c340800000000000000
+      internalID: 4884581212049992062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 342
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17ddc1cfdca37790800000000000000
+      internalID: -7533487674631530724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 343
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e8b30444d1bb250800000000000000
+      internalID: 5961390710727609903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 343
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dc593bb4f50aa30800000000000000
+      internalID: 4224481229213650207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 344
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7181484ec876de90800000000000000
+      internalID: -7001275743330008708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 259
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2dc7a765fad7fb0800000000000000
+      internalID: -4648366454419434798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 259
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43146acb5de975a10800000000000000
+      internalID: 1898160408790188340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 260
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da3456dd879ffb80800000000000000
+      internalID: -8358795747934324007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 259
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b3584ae57b8e8d0800000000000000
+      internalID: -2816799949805241474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 260
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013021bf3f183ba20800000000000000
+      internalID: 3076945855313478416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 259
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69b2560cd1992250800000000000000
+      internalID: 5920423559340145002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 178
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c87ce46e1d530ef0800000000000000
+      internalID: -143168378022102848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 177
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0dafd499ccbf650800000000000000
+      internalID: 6267828265226522826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 178
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51493c35d160b060800000000000000
+      internalID: 6967176192008470875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 177
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda4d066d66c20d10800000000000000
+      internalID: 2090451350219213535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 178
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00c9dd42a7b3a940800000000000000
+      internalID: 5306286693691277322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 177
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82c39e0acf36e0c0800000000000000
+      internalID: -4546876636723428723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 95
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb943d40194bce190800000000000000
+      internalID: -7931766308762072641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aea0b1c40dcf3620800000000000000
+      internalID: 2756146917287177895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c49824a28039c6b0800000000000000
+      internalID: -5275632150829820730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 95
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386d4e7603904dca0800000000000000
+      internalID: -5993155100617156989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 95
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a78e6afe031bde0800000000000000
+      internalID: -1319219409987274179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 96
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5726acefa21b420800000000000000
+      internalID: 2643941730048701893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 14
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc906e69be6023220800000000000000
+      internalID: 2464039555043822029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 14
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0956b15336b635c0800000000000000
+      internalID: -4235998067964880630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 14
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e629728aafa3aba0800000000000000
+      internalID: -6078821925151758621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 13
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02fbe300a5b9a440800000000000000
+      internalID: 4947685364508389902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 14
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6a57b02dd245990800000000000000
+      internalID: -7398237907704240427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ikon-4-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 14
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f760c89374417a10800000000000000
+      internalID: 1905379380629104633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

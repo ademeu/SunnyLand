@@ -19,9 +19,7 @@ public class OnGround : MonoBehaviour
         foreach (Transform footTransform in _translates)
         {
             CheckFootOnGround(footTransform);
-
             if (_isOnGround) break;
-           
         }
     }
     void CheckFootOnGround(Transform footTransform)
