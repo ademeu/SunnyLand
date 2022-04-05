@@ -36,44 +36,53 @@ public class LoginOrRegister : MonoBehaviour
     //        _loginOrRegisterButton.interactable = false;
     //    }
     //}
-   
-    //public void InputPasswordColorConrrol()
-    //{
-    //    if (_password.text != _rPassword.text || (_password.text.Length < 6))
-    //    {
-    //        _password.image.color = Color.red;
-    //        _rPassword.image.color = Color.red;
-    //    }
-    //    else
-    //    {
-    //        _password.image.color = Color.green;
-    //        _rPassword.image.color = Color.green;
-    //    }
-    //}
-    //public void InputUsernameColorControl()
-    //{
-    //    if (_loginUsername.text.Length > 6)
-    //    {
-    //        _loginUsername.image.color = Color.green;
-    //    }
-      
-    //    else
-    //    {
-    //        _loginUsername.image.color = Color.red;
-    //    }
-    //}
-    //public void InputEmailColorControl()
-    //{
-    //    if (_email.text.IndexOf('@') <= 0)
-    //    {
-    //        _email.image.color = Color.red;
-    //    }
 
-    //    else
-    //    {
-    //        _email.image.color = Color.green;
-    //    }
-    //}
+    public void InputPasswordColorControl()
+    {
+        if (/*_password.text != _rPassword.text ||*/ _password.text.Length < 6)
+        {
+            _password.image.color = Color.red;
+        }
+        else
+        {
+            _password.image.color = Color.green;
+        }
+    }
+    public void InputRPassWordColorControl()
+    {
+        if (_rPassword.text.Length < 6)
+        {
+            _rPassword.image.color = Color.red;
+        }
+        else
+        {
+            _rPassword.image.color = Color.green;
+        }
+    }
+    public void InputUsernameColorControl()
+    {
+        if (_loginUsername.text.Length > 6)
+        {
+            _loginUsername.image.color = Color.green;
+        }
+
+        else
+        {
+            _loginUsername.image.color = Color.red;
+        }
+    }
+    public void InputEmailColorControl()
+    {
+        if (_email.text.IndexOf('@') <= 0)
+        {
+            _email.image.color = Color.red;
+        }
+
+        else
+        {
+            _email.image.color = Color.green;
+        }
+    }
 
     public void Login()
     {

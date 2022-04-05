@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using PlayFab; // get işlemi icin yazdık.
 using PlayFab.ClientModels; // set işlemi icin yazdık.
 using System;
+using PlayFab.ProfilesModels;
+using PlayFab.LocalizationModels;
 
 public class PlayerAccount 
 {
@@ -12,6 +14,7 @@ public class PlayerAccount
     public string Email { get; set; }
     public string Password { get; set; }
     public string RepeatPassword { get; set; }
+  
 
     #region Register
     public void Register()
@@ -49,4 +52,10 @@ public class PlayerAccount
         Debug.LogError("Giris Basarili");
     } 
     #endregion
+
+    public void Language()
+    {
+      //  SetProfileLanguageRequest _languesRequest = new SetProfileLanguageRequest() {Language = LanguageSetting};
+
+    }
 }
