@@ -5,8 +5,9 @@ using PlayFab.ClientModels; // set işlemi icin yazdık.
 using System;
 using PlayFab.ProfilesModels;
 using PlayFab.LocalizationModels;
+using UnityEngine.SceneManagement;
 
-public class PlayerAccount 
+public class PlayerAccount
 {
     public string PlayerID { get; set; }
     public string DisplayName { get; set; }
@@ -14,7 +15,7 @@ public class PlayerAccount
     public string Email { get; set; }
     public string Password { get; set; }
     public string RepeatPassword { get; set; }
-  
+
 
     #region Register
     public void Register()
@@ -38,8 +39,11 @@ public class PlayerAccount
     #region Login
     public void Login()
     {
+        // Request: istek.
+        //Result: Server durumları doner
         LoginWithPlayFabRequest _loginRequest = new LoginWithPlayFabRequest() { Username = LoginUsername, Password = Password };
         PlayFabClientAPI.LoginWithPlayFab(_loginRequest, LoginSucces, LoginError);
+       
     }
 
     private void LoginError(PlayFabError obj)
@@ -49,13 +53,31 @@ public class PlayerAccount
 
     private void LoginSucces(LoginResult obj)
     {
-        Debug.LogError("Giris Basarili");
-    } 
+        Debug.Log("Giris Basarili");
+        SceneManager.LoadScene(2);
+    }
     #endregion
 
-    public void Language()
+    void ChechBanControl()
     {
-      //  SetProfileLanguageRequest _languesRequest = new SetProfileLanguageRequest() {Language = LanguageSetting};
+        GetAccountInfoRequest _request = new GetAccountInfoRequest();
+        PlayFabClientAPI.GetAccountInfo(_request, BanSuccess, BanError);
+    }
 
+    private void BanError(PlayFabError obj)
+    {
+        Debug.Log("Ban Durumunu Cekemiyorum");
+    }
+
+    private void BanSuccess(GetAccountInfoResult obj)
+    {
+        if (obj.AccountInfo.TitleInfo.isBanned == false)
+        {
+            Debug.Log("Banli Degil..");
+        }
+        else
+        {
+            Debug.Log("Banned.");
+        }
     }
 }

@@ -7,24 +7,16 @@ public class LoginOrRegister : MonoBehaviour
 
     [SerializeField] InputField _loginUsername, _email, _password, _rPassword;
     [SerializeField] Button _loginOrRegisterButton;
-    [SerializeField] Text _title,_RegisterOrLoginButtonText, _orRegisterLogin;
+    [SerializeField] Text _title, _RegisterOrLoginButtonText, _orRegisterLogin;
 
     public bool _isRegisterActive { get; set; }
 
     private void Awake()
     {
-       _playerAccount = new PlayerAccount();
-      // _loginOrRegisterButton.interactable = false;
+        _playerAccount = new PlayerAccount();
+        // _loginOrRegisterButton.interactable = false;
     }
-    public void Register()
-    {
-        _playerAccount.LoginUsername = _loginUsername.text;
-        _playerAccount.Email = _email.text;
-        _playerAccount.Password = _password.text;
-        _playerAccount.RepeatPassword = _rPassword.text;
-        _playerAccount.DisplayName = _loginUsername.text;
-        _playerAccount.Register();
-    }
+
     //public void InputCheckControl()
     //{
     //    if (_loginUsername.text.Length >= 6 && (_password.text == _rPassword.text) && (_password.text != "") && _password.text.Length >= 6)
@@ -37,53 +29,71 @@ public class LoginOrRegister : MonoBehaviour
     //    }
     //}
 
-    public void InputPasswordColorControl()
-    {
-        if (/*_password.text != _rPassword.text ||*/ _password.text.Length < 6)
-        {
-            _password.image.color = Color.red;
-        }
-        else
-        {
-            _password.image.color = Color.green;
-        }
-    }
-    public void InputRPassWordColorControl()
-    {
-        if (_rPassword.text.Length < 6)
-        {
-            _rPassword.image.color = Color.red;
-        }
-        else
-        {
-            _rPassword.image.color = Color.green;
-        }
-    }
-    public void InputUsernameColorControl()
-    {
-        if (_loginUsername.text.Length > 6)
-        {
-            _loginUsername.image.color = Color.green;
-        }
+    #region Input Password Color
+    //public void InputPasswordColorControl()
+    //{
+    //    if (/*_password.text != _rPassword.text ||*/ _password.text.Length < 6)
+    //    {
+    //        _password.image.color = Color.red;
+    //    }
+    //    else
+    //    {
+    //        _password.image.color = Color.green;
+    //    }
+    //}
+    #endregion
+    #region Input RPassword Color
+    //public void InputRPassWordColorControl()
+    //{
+    //    if (_rPassword.text.Length < 6)
+    //    {
+    //        _rPassword.image.color = Color.red;
+    //    }
+    //    else
+    //    {
+    //        _rPassword.image.color = Color.green;
+    //    }
+    //}
+    #endregion
+    #region Input Username Color
+    //public void InputUsernameColorControl()
+    //{
+    //    if (_loginUsername.text.Length > 6)
+    //    {
+    //        _loginUsername.image.color = Color.green;
+    //    }
 
-        else
-        {
-            _loginUsername.image.color = Color.red;
-        }
-    }
-    public void InputEmailColorControl()
+    //    else
+    //    {
+    //        _loginUsername.image.color = Color.red;
+    //    }
+    //}
+    #endregion
+    #region Input Email Color
+    //public void InputEmailColorControl()
+    //{
+    //    if (_email.text.IndexOf('@') <= 0)
+    //    {
+    //        _email.image.color = Color.red;
+    //    }
+
+    //    else
+    //    {
+    //        _email.image.color = Color.green;
+    //    }
+    //}
+
+    #endregion
+
+    public void Register()
     {
-        if (_email.text.IndexOf('@') <= 0)
-        {
-            _email.image.color = Color.red;
-        }
-
-        else
-        {
-            _email.image.color = Color.green;
-        }
+        _playerAccount.LoginUsername = _loginUsername.text;
+        _playerAccount.Email = _email.text;
+        _playerAccount.Password = _password.text;
+        _playerAccount.RepeatPassword = _rPassword.text;
+        _playerAccount.DisplayName = _loginUsername.text;
+        _playerAccount.Register();
     }
-
     public void Login()
     {
         _playerAccount.LoginUsername = _loginUsername.text;
@@ -103,7 +113,6 @@ public class LoginOrRegister : MonoBehaviour
                 break;
         }
     }
-
     void RegisterPanel()
     {
         _title.text = "Register";
