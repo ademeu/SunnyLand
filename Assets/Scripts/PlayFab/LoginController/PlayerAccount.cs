@@ -48,7 +48,7 @@ public class PlayerAccount
 
     private void LoginError(PlayFabError obj)
     {
-        Debug.LogError("Giris Basarisiz");
+        Debug.LogError("Giris Basarisiz" + obj);
     }
 
     private void LoginSucces(LoginResult obj)
@@ -58,26 +58,27 @@ public class PlayerAccount
     }
     #endregion
 
-    void ChechBanControl()
+    private void GetChechBanControl()
     {
-        GetAccountInfoRequest _request = new GetAccountInfoRequest();
-        PlayFabClientAPI.GetAccountInfo(_request, BanSuccess, BanError);
+        GetAccountInfoRequest _banRequest = new GetAccountInfoRequest();
+        
+        PlayFabClientAPI.GetAccountInfo(_banRequest, BanSuccess,BanError);
     }
 
     private void BanError(PlayFabError obj)
     {
-        Debug.Log("Ban Durumunu Cekemiyorum");
+          Debug.Log("Bana Erişemedim.. Başaramdım abi");
     }
 
-    private void BanSuccess(GetAccountInfoResult obj)
+    public void BanSuccess(GetAccountInfoResult obj)
     {
         if (obj.AccountInfo.TitleInfo.isBanned == false)
         {
-            Debug.Log("Banli Degil..");
+            Debug.Log("Banli Degil");
         }
         else
         {
-            Debug.Log("Banned.");
+            Debug.Log("Banlii");
         }
     }
 }

@@ -8,12 +8,13 @@ public class LoginOrRegister : MonoBehaviour
     [SerializeField] InputField _loginUsername, _email, _password, _rPassword;
     [SerializeField] Button _loginOrRegisterButton;
     [SerializeField] Text _title, _RegisterOrLoginButtonText, _orRegisterLogin;
-
+    //Toggle _toggle;
     public bool _isRegisterActive { get; set; }
 
     private void Awake()
     {
         _playerAccount = new PlayerAccount();
+        
         // _loginOrRegisterButton.interactable = false;
     }
 

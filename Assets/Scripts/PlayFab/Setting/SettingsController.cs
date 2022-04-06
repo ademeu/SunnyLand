@@ -31,10 +31,9 @@ public class SettingsController : MonoBehaviour
     {
         _createDate.text = obj.AccountInfo.Created.Date.ToString();
         _playerInput.text = obj.AccountInfo.TitleInfo.DisplayName; 
-      //  _playerID = obj.AccountInfo.PlayFabId;
     }
 
-    public void SetPlayerInfo()
+    private void SetPlayerInfo()
     {
         UpdateUserTitleDisplayNameRequest _request = new UpdateUserTitleDisplayNameRequest() { DisplayName = _playerInput.text };
         PlayFabClientAPI.UpdateUserTitleDisplayName(_request, SahneGecisSucces, Error);
