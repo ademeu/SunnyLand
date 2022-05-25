@@ -49,14 +49,14 @@ public class PlayerController : MonoBehaviour
     }
     void Walk()
     {
-        _moverController.Horizontal(this.transform, _moveSpeed, _isHortizantalActive);
+        _moverController.Horizontal(this.transform, _moveSpeed,true);
         _animator.SetFloat("__isWalk", Mathf.Abs(Input.GetAxis("Horizontal")));
     }
     void Jump()
     {
         if (_onGround.IsOnGround && _isSpaceControl)
         {
-            #region 12 çilek topladýgýnda playerýn zýplama kuveeti artýyor.
+            #region 12 ï¿½ilek topladï¿½gï¿½nda playerï¿½n zï¿½plama kuveeti artï¿½yor.
             if (GameManager.ReturnScore?.Invoke() >= 12 && _forceSpeed > carpan)
             {
                 _forceSpeed *= carpan;
@@ -78,7 +78,7 @@ public class PlayerController : MonoBehaviour
         _moverController.Vertical(_rigidbody2D, _climbSpeed, _isVerticalActive);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision) // player cýlege dokundugunda cýlegý alýyor ýkýsýde ýs trýgerý yok
+    private void OnCollisionEnter2D(Collision2D collision) // player cï¿½lege dokundugunda cï¿½legï¿½ alï¿½yor ï¿½kï¿½sï¿½de ï¿½s trï¿½gerï¿½ yok
     {      
         if (collision.gameObject.CompareTag("cilek"))
         {
@@ -88,7 +88,7 @@ public class PlayerController : MonoBehaviour
             _textSayac.text = GameManager.ReturnScore?.Invoke().ToString();
         }  
     }
-    private void OnTriggerEnter2D(Collider2D collision) // player kurbaga dokundugunda oluyor playerde ýs trýger yok kurbagda var.
+    private void OnTriggerEnter2D(Collider2D collision) // player kurbaga dokundugunda oluyor playerde ï¿½s trï¿½ger yok kurbagda var.
     {
         if (collision.gameObject.CompareTag("Kurbag"))
         {
